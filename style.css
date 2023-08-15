@@ -1,3 +1,78 @@
+.container{
+  background-attachment: fixed;
+   height: 100vh;
+   margin: auto;
+   display: grid;
+   grid-template-columns: 30% 70%;
+   padding: 10PX;
+}
+.box{
+   text-align: center;
+   top: 5px;
+}
+.box1{
+   background-color: grey;
+   border: solid grey;
+   margin-top: 5px;
+}
+.box2{
+   background-color: white;
+   align-items: center;
+   justify-content: center;
+}
+.funciones{
+   font-style: italic; color: lightgray;
+   font-size: 50px;
+}
+ul{
+   text-align: justify;
+   color: black;
+   font-weight: bold;
+   font: caption;
+}
+ol{
+   text-align: justify;
+   color: aliceblue;
+   font-weight: bold;
+   font: caption;
+}
+h3{
+   background-color: darkgrey;
+   color: aliceblue;
+   font-weight: bold;
+   font: caption;
+}
+.botonwsp{
+   background-image:/ bernard-hermant-u7VDgNGb78w-unsplash;
+   background-repeat: no-repeat;
+   height: 100px;
+   width: 100px;
+   background-size: 40px 40px;
+   background-position: center;
+}
+h4{
+   border: solid darkgray;
+   background-color: darkgray;
+   border-radius: 25%;
+   align-self: center;
+   text-emphasis-color: black;
+   font-style: italic; color: white;
+}
+img{
+   border: 50%;
+}
+table{ margin:0 auto}
+table,
+td{
+   border: 1px solid #333;
+}
+thead,
+tfoot{
+   background-color: rgb(147, 148, 224);
+   color: white
+}
+
+
 h1{
     color: rgba(40, 117, 180, 0.925);
 }
@@ -15,5 +90,6 @@ tfoot {
 
 
 }
+
 
 
