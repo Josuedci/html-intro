@@ -42,8 +42,9 @@ h3{
    font-weight: bold;
    font: caption;
 }
-.botonwsp{
-   background-image:/ bernard-hermant-u7VDgNGb78w-unsplash;
+.contenedor
+{
+   background-image: url(bernard-hermant-u7VDgNGb78w-unsplash);
    background-repeat: no-repeat;
    height: 100px;
    width: 100px;
