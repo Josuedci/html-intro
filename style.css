@@ -1,10 +1,19 @@
-.container{
+body {
+   margin: 0;
+   padding: 0;
+   background-image:url(background.jpg);
+   background-size:cover;
+   background-position: center;
+}
+
+.principal{
   background-attachment: fixed;
    height: 100vh;
    margin: auto;
    display: grid;
    grid-template-columns: 30% 70%;
    padding: 10PX;
+   
 }
 .box{
    text-align: center;
@@ -42,15 +51,7 @@ h3{
    font-weight: bold;
    font: caption;
 }
-.contenedor
-{
-   background-image: url(bernard-hermant-u7VDgNGb78w-unsplash);
-   background-repeat: no-repeat;
-   height: 100px;
-   width: 100px;
-   background-size: 40px 40px;
-   background-position: center;
-}
+
 h4{
    border: solid darkgray;
    background-color: darkgray;
@@ -75,7 +76,7 @@ tfoot{
 
 
 h1{
-    color: rgba(40, 117, 180, 0.925);
+    color: rgba(0, 0, 0, 0.925);
 }
 
 table,
